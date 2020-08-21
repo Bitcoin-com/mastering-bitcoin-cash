@@ -434,7 +434,7 @@ Here’s the same public key shown as a 520-bit number (130 hex digits) with the
 K = 04F028892BAD7ED57D2FB57BF33081D5CFCF6F9ED3D3D7F159C2E2FFF579DC341A<?pdf-cr?>07CF33DA18BD734C600B96A72BBC4749D5141C90EC8AC328AE52DDFE2E505BDB
 ```
 
-####g Compressed public keys
+#### Compressed public keys
 
 Compressed public keys were introduced to Bitcoin Cash to reduce the size of transactions and conserve disk space on nodes that store the Bitcoin Cash blockchain database. Most transactions include the public key, required to validate the owner’s credentials and spend the Bitcoin Cash. Each public key requires 520 bits (prefix \\+ x \\+ y), which when multiplied by several hundred transactions per block, or tens of thousands of transactions per day, adds a significant amount of data to the blockchain.
 
